@@ -1,0 +1,14 @@
+from deep_translator import GoogleTranslator
+def translate_text(text, dest_language):
+  try:
+    translation=GoogleTranslator(source='auto', target=dest_language).translate(text)
+    return translation
+  except Exception as e:
+      return f"Error:{str(e)}"
+if __name__=='__main__':
+  text=input("enter text to translate:")
+  dest_language=input("enter destination language:")
+  translated_text=translate_text(text,dest_language)
+  print(f"Translated Text:{translated_text}")
+
+it is usedd to translate the language into other language
