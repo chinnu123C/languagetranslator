@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tribute to [Person's Name]</h1>
+    <img src="person-image.jpg" alt="[Person's Name]" class="tribute-img">
+    <p class="intro">
+      [A short introduction about the person and why they are important.]
+    </p>
+    <h2>Biography</h2>
+    <ul>
+      <li>Born: [Date]</li>
+      <li>Notable Achievements: [List achievements]</li>
+      <li>Died: [Date, if applicable]</li>
+    </ul>
+    <h2>Legacy</h2>
+    <p>
+      [Talk about the legacy and impact of the person.]
+    </p>
+    <footer>
+      <p>Created by [Your Name]</p>
+    </footer>
+  </div>
+</body>
+</html>
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.tribute-img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #aaa;
+}
+
+.intro, ul, p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  margin-top: 40px;
+}
